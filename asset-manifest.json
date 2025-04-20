@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/cloudSecurityDashboard/static/css/main.b2d813ab.css",
+    "main.js": "/cloudSecurityDashboard/static/js/main.8f9c1e8d.js",
+    "index.html": "/cloudSecurityDashboard/index.html",
+    "main.b2d813ab.css.map": "/cloudSecurityDashboard/static/css/main.b2d813ab.css.map",
+    "main.8f9c1e8d.js.map": "/cloudSecurityDashboard/static/js/main.8f9c1e8d.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.b2d813ab.css",
+    "static/js/main.8f9c1e8d.js"
+  ]
+}
