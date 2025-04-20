@@ -1,70 +1,52 @@
-# Getting Started with Create React App
+# 🌐 CNAPP Dashboard
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+A **Cloud-Native Application Protection Platform (CNAPP)** Dashboard built using **React** and **Material UI**. This dashboard allows users to dynamically manage widgets under various cloud security categories such as **CSPM**, **CWPP**, **Registry Scan**, and **Tickets**.
 
-## Available Scripts
+🚀 **Live Demo**: [https://IshaNITM.github.io/cloudSecurityDashboard](https://IshaNITM.github.io/cloudSecurityDashboard)
 
-In the project directory, you can run:
+---
 
-### `npm start`
+## 📌 Features
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+- ✅ **Dynamic Widget Selection**  
+  Add widgets through a tabbed dialog with checkboxes.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+- 🧩 **Category Tabs**  
+  Widgets grouped under CSPM, CWPP, Registry Scan, and Tickets.
 
-### `npm test`
+- 🔁 **Duplicate Prevention**  
+  Automatically prevents the addition of duplicate widgets using Set logic.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+- ❌ **Widget Removal**  
+  Remove widgets using either the ❌ icon on the widget or by unchecking it from the Add Widget dialog.
 
-### `npm run build`
+- 🖥️ **Responsive Grid Layout**  
+  Adaptive design that looks good across various screen sizes.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+---
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## 📦 Tech Stack
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+- ⚛️ React (Create React App)
+- 🎨 Material UI (MUI)
+- 🗃️ Redux
+- 📄 GitHub Pages (for deployment)
 
-### `npm run eject`
+---
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+## 🛠️ Getting Started Locally
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+Follow these instructions to run the project on your local machine:
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+### 1. Clone the Repository
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+```bash
+git clone https://github.com/IshaNITM/cloudSecurityDashboard.git
+cd cloudSecurityDashboard/dashboard-app
+. Install Dependencies
+npm install 
+Run the App Locally
 
-## Learn More
+npm start
+The app will open at http://localhost:3000
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
